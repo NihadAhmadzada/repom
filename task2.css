@@ -1,0 +1,247 @@
+.container {
+    background-image: url(bg-masthead.jpg);
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menu_icon {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2;
+
+
+}
+
+.menu_icon i {
+    color: white;
+    font: size 10px;
+
+}
+
+.menu_icon:hover {
+    background-color: darkslategrey;
+    opacity: 1;
+}
+
+.find_bottom {
+    width: 190px;
+    height: 70px;
+
+    border: 2px solid #1d809f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d809f;
+    margin-top: 40px;
+}
+
+.find_bottom p {
+    color: white;
+}
+
+.menu_yazi1 h1 {
+    font-size: 70px;
+}
+
+.menu_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_yazi2 h3 {
+    font-size: 22px;
+}
+
+.find_bottom:hover {
+    background-color: #0f5064;
+    cursor: pointer;
+    border: 2px solid #0f5064;
+}
+
+.offer_bottom {
+    width: 190px;
+    height: 70px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.offer_bottom p {
+    color: white;
+}
+
+.container2 {
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head_yazi h2 {
+    font-size: 27px;
+}
+
+.offer_bottom:hover {
+    background-color: rgb(37, 35, 35);
+}
+
+.main_services {
+    background-color: #1d809f;
+    max-width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_services_Header h3 {
+    color: #ecb807;
+    font-size: 15px;
+}
+
+.main_services_Header h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.services {
+    text-align: center;
+}
+
+.main_services_Header {
+    padding: 120px 0 60px 0;
+}
+
+.phone i {
+    color: #1d809f;
+    font-size: 20px;
+
+}
+
+.phone {
+    height: 105px;
+    width: 105px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reponsive p {
+    color: white;
+    font-size: 23px;
+
+}
+
+.screen_size p {
+    color: rgb(223, 222, 222);
+}
+
+.phone_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_icons {
+    display: flex;
+    gap: 40px;
+    padding: 0px 0 120px 0;
+}
+
+.welcome {
+    background-image: url(bg-callout.jpg);
+    max-width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download_bottom {
+    width: 190px;
+    height: 70px;
+
+    border: 2px solid #1d809f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d809f;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.websites {
+    width: 550px;
+    text-align: center;
+}
+
+.download_bottom p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_bottom:hover {
+    background-color: #0f5064;
+    border: 2px solid #0f5064;
+}
+
+.welcome h2 {
+    font-size: 50px;
+}
+
+.portfolio h3 {
+    color: #ecb807;
+    text-align: center;
+}
+
+.recent_projects {
+    padding: 100px 0 50px 0;
+}
+
+.recent {
+    text-align: center;
+}
+
+.recent h2 {
+    font-size: 40px;
+}
