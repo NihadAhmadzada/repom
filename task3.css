@@ -1,0 +1,261 @@
+body {
+    background-color: #f8f9fa;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.navbar_list {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_logo a {
+    font-size: 20px;
+}
+
+.navbar_list a:hover {
+    color: #64a19d;
+}
+
+.mountain_picture {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(6, 6, 6, 0.5)),
+        url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg');
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.started_bottom {
+    width: 170px;
+    height: 60px;
+
+    border: 2px solid #64a19d;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #64a19d;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.started_bottom p {
+    color: white;
+}
+
+.grayscale h1 {
+    letter-spacing: 9px;
+    font-size: 100px;
+    text-align: center;
+    color: #FFFFFF80;
+}
+
+.bootstrap h2 {
+    color: #FFFFFF80;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2.2px;
+    width: 500px;
+
+}
+
+.mountain_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.started_bottom:hover {
+    background-color: #487875;
+    border: 2px solid #487875;
+}
+
+.phone_picture {
+    height: fit-content;
+    background-color: rgb(11, 11, 11);
+}
+
+.built h2 {
+    color: white;
+    padding: 160px 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.preview_page p {
+    color: #FFFFFF80;
+    width: 580px;
+    text-align: center;
+
+}
+
+.preview_page a {
+    color: #64a19d;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.preview_page {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.shoreline_image img {
+    width: 100%;
+}
+
+.shoreline_image {
+    width: 45%;
+}
+
+.about {
+    height: fit-content;
+
+}
+
+.shoreline {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.shoreline_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shorelinep {
+    color: rgba(0, 0, 0, 0.5) !important;
+    width: 330px;
+    text-align: center;
+}
+
+.shorelineh4 {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.misty_mountain {
+    display: flex;
+    background-color: black;
+}
+
+.misty_about {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.misty_forest {
+    display: flex;
+}
+
+.misty p {
+
+    color: #FFFFFF80;
+    width: 450px;
+    text-align: center;
+
+}
+
+.misty2 p {
+    color: #FFFFFF80;
+    width: 450px;
+    text-align: center;
+
+}
+
+.misty h4 {
+    color: #ffffff;
+
+}
+
+.mountain_img {
+    width: 50%;
+}
+
+
+.misty {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mountain_img img {
+    width: 100%;
+}
+
+.misty2 h4 {
+    color: white;
+
+}
+
+.misty_forest {
+    display: flex;
+    background-color: black;
+}
+
+.misty2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forest_img {
+    width: 50%;
+}
+
+.forest_img img {
+    width: 100%;
+}
+
+.container2 {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
